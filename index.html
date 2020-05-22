@@ -21,7 +21,20 @@
         }
       };
 
-      funcionParImpar(5);
+      funcionParImpar(2);
+      const txt = "";
+
+      const funcionCadenaDeTexto = (txt) => {
+        if (txt == txt.toLowerCase()) {
+          console.log("solo minusculas");
+        } else if (txt == txt.toUpperCase()) {
+          console.log("solo mayusculas");
+        } else {
+          console.log("mezcla de ambas");
+        }
+      };
+
+      funcionCadenaDeTexto("AA");
     </script>
   </body>
 </html>
