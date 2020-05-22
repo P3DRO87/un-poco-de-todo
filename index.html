@@ -7,6 +7,21 @@
     <title>Document</title>
   </head>
   <body>
-    <h1>hello world</h1>
+    <h1 id="text">hello world</h1>
+
+    <script>
+      const n = 0;
+      const funcionParImpar = (n) => {
+        const impar = n % 2;
+
+        if (impar) {
+          console.log("numero impar");
+        } else {
+          console.log("numero par");
+        }
+      };
+
+      funcionParImpar(5);
+    </script>
   </body>
 </html>
